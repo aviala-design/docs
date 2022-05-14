@@ -14,7 +14,7 @@ footerHtml: true
 footer: Copyright 2022 Cladonia Inc. OUR Studio.
 actions:
   - text: 开始了解
-    link: /guide/design-doc.html
+    link: /start/design-doc.html
     type: primary
   - text: Systematize Design 官网
     link: https://systematize.design/
