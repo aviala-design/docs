@@ -2,8 +2,8 @@
 
 module.exports = {
     lang: 'zh-CN',
-    title: 'Test',
-    description: '114514',
+    title: 'Systematize Design',
+    description: 'Systematize Design 文档',
 
     themeConfig: {
         darkMode: true,
@@ -20,7 +20,6 @@ module.exports = {
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Guide', link: '/guide/' },
-          { text: 'External', link: 'https://google.com' },
         ]
       },
 
