@@ -11,5 +11,12 @@ features:
     - title: 简单易用，方便构建
       details: Systematize Design 体系下「Spiral」是一套 Web 组件库，提供开箱即用的解决方案，助您以更快更好的方式实现产品设计，为设计赋能。
 footerHtml: true
-footer: Copyright 2022 Cladonia Inc. Our Studio.
+footer: Copyright 2022 Cladonia Inc. OUR Studio.
+actions:
+  - text: 开始了解
+    link: /guide/design-doc.html
+    type: primary
+  - text: Systematize Design 官网
+    link: https://systematize.design/
+    type: secondary
 ---
