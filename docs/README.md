@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: '/images/logo.svg'
-heroText: Systematize Design
+heroText: Systematize Design (SMD)
 tagline: 系统化，风格统一，易于设计与开发的设计系统
 features:
     - title: 风格鲜明，层次清晰
