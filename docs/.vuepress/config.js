@@ -1,14 +1,11 @@
 // const { default: pwaPlugin } = require("@vuepress/plugin-pwa");
+const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
   lang: 'zh-CN',
   title: 'Systematize Design',
   description: 'Systematize Design 文档',
-
-  themeConfig: {
-      darkMode: true,
-      logo: '/images/smblogo.svg',
-  },
+  logo: '/images/smblogo.svg',
   configureWebpack: {
       resolve: {
           alias: {
@@ -16,7 +13,9 @@ module.exports = {
           }
       }
   },
-  themeConfig: {
+  theme: defaultTheme({
+    darkMode: true,
+    themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Guide', link: '/guide/' },
@@ -37,6 +36,8 @@ module.exports = {
           // 字符串 - 页面文件路径
           '/bar/README.md',
         ],
+  }),
+  
         
   plugins: [
       // pwaPlugin({
