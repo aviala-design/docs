@@ -1,0 +1,16 @@
+{
+    "name": "systematize-docs-v2",
+    "version": "2.0.0",
+    "private": true,
+    "description": "The docs of Systematize Design V2",
+    "license": "MIT",
+    "devDependencies": {
+        "vitepress": "^1.0.0-alpha.4",
+        "vue": "^3.2.37"
+    },
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "build": "vitepress build docs",
+        "serve": "vitepress serve docs"
+    }
+}

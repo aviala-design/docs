@@ -1,0 +1,8 @@
+yarn-error.log
+yarn.lock
+pnpm-*
+package-lock.json
+node_modules
+docs/.vitepress/.cache
+docs/.vitepress/.temp
+docs/.vitepress/dist
