@@ -2,13 +2,13 @@ import { defineConfigWithTheme, DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Sidebar = [
   {
-    text: "Sysd 设计组件库",
+    text: "design设计组件库",
     collapsible: true,
     items: [
-      { text: "快速了解", link: "/Sysd/" },
-      { text: "设计标准", link: "/Sysd/designDtandards" },
-      { text: "组件", link: "/Sysd/components" },
-      { text: "V2 迁移指南", link: "/Sysd/updatetov2" },
+      { text: "快速了解", link: "/design/" },
+      { text: "设计标准", link: "/design/standards" },
+      { text: "组件", link: "/design/components" },
+      { text: "V2 迁移指南", link: "/design/updatetov2" },
     ],
   },
 ]
@@ -25,20 +25,20 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
       copyright: "Copyright © 2020-present Cladonia ❤️ Community",
     },
     sidebar: {
-      "/Sysd/": sidebar,
+      "/design/": sidebar,
     },
     nav: [
       { text: "入门", link: "/guide/" },
-      { text: "Sysd 设计组件库", link: "/Sysd/" },
-      { text: "Amethyst 图标库", link: "/Amst/" },
+      { text: "design 设计组件库", link: "/design/" },
+      { text: "Amethyst 图标库", link: "/amethyst/" },
       {
         text: "开发者",
         items: [
           {
             text: "Spiral 组件库",
             items: [
-              { text: "Vue组件", link: "/vue-guide/" },
-              { text: "WPF组件", link: "/wpf-guide/" },
+              { text: "Vue组件", link: "/spiral-vue/" },
+              { text: "WPF组件", link: "/spiral-wpf/" },
             ],
           },
         ],

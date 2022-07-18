@@ -6,7 +6,7 @@ lang: zh-CN
 # 📕 Systematize Design 设计组件库文档
 
 ::: tip 本文档适用于「Systematize Design V2」
-为此，您可能需要将 Systematize Design V1.3 迁移至 V2 ，详情请参考 [V2 迁移指南](../Sysd/updatetov2)
+为此，您可能需要将 Systematize Design V1.3 迁移至 V2 ，详情请参考 [V2 迁移指南](/design/updatetov2)
 :::
 
 

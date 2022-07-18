@@ -17,6 +17,10 @@ body {
 }
 
 :root {
+    --sysd-test-point: rgba(0, 0, 0, 0)
+}
+
+:root {
     /* Sysd colour */
     --theme-color: rgba(255, 181, 54, 1);
     --theme-color-background: rgba(255, 250, 237, 1);
@@ -166,7 +170,7 @@ body {
     --vp-c-text-inverse-3: var(--vp-c-text-light-3);
     --vp-c-text-inverse-4: var(--vp-c-text-light-4);
     --vp-c-text-code: var(--vp-c-indigo-lighter);
-    --brand-show: linear-gradient( 154.26deg, rgba(0, 0, 0, 0.322) 0%, rgba(0, 0, 0, 0.32) 29.17%, rgba(0, 0, 0, 0.08) 63.96%, rgba(0, 0, 0, 0.01) 100%), linear-gradient( 139.21deg, rgba(255, 185, 99, 1) 0%, rgba(255, 152, 105, 1) 58.39%, rgba(255, 163, 117, 1) 62.95%, rgba(255, 139, 135, 1) 100%);
+    --brand-show: linear-gradient( 154.26deg, rgba(0, 0, 0, 0.322) 0%, rgba(0, 0, 0, 0.32) 29.17%, rgba(0, 0, 0, 0.08) 63.96%, rgba(0, 0, 0, 0.01) 100%), linear-gradient( 139.21deg, rgba(255, 185, 99, 1) 0%, rgba(255, 152, 105, 1) 58.39%, rgba(255, 163, 117, 1) 62.95%, rgba(255, 139, 135, 1) 100%) !important;
     /* Sysd colour */
     --theme-color: rgba(255, 197, 23, 1);
     --theme-color-background: rgba(255, 181, 54, 0.1);

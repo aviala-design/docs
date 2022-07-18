@@ -7,7 +7,7 @@ layout: doc
 # ✨ 快速入门「Systematize Design」
 
 ::: tip 本文档适用于「Systematize Design V2」
-为此，您可能需要将 Systematize Design V1.3 迁移至 V2 ，详情请参考 [V2 迁移指南](../Sysd/updatetov2.md)
+为此，您可能需要将 Systematize Design V1.3 迁移至 V2 ，详情请参考 [V2 迁移指南](/design/updatetov2.md)
 :::
 ## 简单介绍 Systematize Design
 Systematize Design 是一个系统化，风格统一的设计系统，我们希望它能够为用户提供足够愉悦舒适的体验。
@@ -78,6 +78,6 @@ Systematize Design 体系使用 MIT 协议，这代表其中的任何资源都�
 
 ## 开始使用 Spiral 组件库
 ### Spiral Vue
-请前往 [Spiral Vue 文档](../Sp-vue/start.md) 了解详情
+请前往 [Spiral Vue 文档](/spiral-vue/start.md) 了解详情
 ### Spiral WPF
-请前往 [Spiral WPF 文档](../Sp-wpf/start.md) 了解详情
+请前往 [Spiral WPF 文档](/spiral-wpf/start.md) 了解详情
