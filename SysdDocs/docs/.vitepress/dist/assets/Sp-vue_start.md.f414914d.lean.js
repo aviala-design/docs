@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.77b16a70.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Sp-vue/start.md"}'),r={name:"Sp-vue/start.md"};function s(o,c,n,p,_,d){return a(),e("div")}var f=t(r,[["render",s]]);export{m as __pageData,f as default};
