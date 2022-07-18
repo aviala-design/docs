@@ -444,25 +444,25 @@ body {
 }
 
 /* 主页图标 Div 盒子背景色变更 */
-.icon[data-v-46ef82a4] {
+.VPFeature .icon {
   background-color: var(--vp-c-white);
 }
 
 /* 主页「快速入门」按钮颜色变更 */
-.VPButton.brand[data-v-1851d5f4] {
+.VPButton.brand {
   background: var(--brand-colour);
   font-weight: bolder;
   transition: 200ms !important;
   border: none;
 }
 
-.VPButton.brand[data-v-1851d5f4]:hover {
+.VPButton.brand:hover {
   filter: brightness(102%);
   transform: scale(1.06);
   box-shadow: var(--basic-line-slender), var(--basic-boxshadow-box-hover);
 }
 
-.VPButton.brand[data-v-1851d5f4]:focus {
+.VPButton.brand:focus {
   filter: brightness(98%);
   transform: scale(0.96);
 }
@@ -487,7 +487,7 @@ body {
 }
 
 /* 菜单展开动画 */
-.menu[data-v-86efe786] {
+.menu {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-20px) scaleY(0.72);
@@ -497,8 +497,8 @@ body {
   transition-delay: 0s, 0s, 0s;
 }
 
-.VPFlyout:hover .menu[data-v-86efe786],
-.button[aria-expanded="true"]+.menu[data-v-86efe786] {
+.VPFlyout:hover .menu
+.button[aria-expanded="true"]+.menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -510,8 +510,8 @@ body {
 }
 
 /* 撑起菜单 */
-.title[data-v-37fb098e] {
-  white-space: nowrap;
+.title {
+  white-space: nowrap !important;
 }
 
 /* 菜单悬浮效果 */
@@ -551,7 +551,7 @@ body {
   color: var(--vp-c-text-1);
 }
 
-div[data-v-95b970be] .tip {
+.VPFeatures+div:last-child:not(.VPFeatures, .VPHome) .tip {
   background: var(--brand-show);
   color: var(--vp-c-text-1);
   margin: 0 auto;
@@ -559,29 +559,29 @@ div[data-v-95b970be] .tip {
   width: 100%;
 }
 
-div[data-v-95b970be]:last-child:not(.VPFeatures, .VPHome) .custom-block.tip p:last-child {
+div:last-child:not(.VPFeatures, .VPHome) .custom-block.tip p:last-child {
   max-width: 400px;
 }
 
-div[data-v-95b970be]:last-child:not(.VPFeatures, .VPHome) {
+.VPFeatures+div:last-child:not(.VPFeatures, .VPHome) {
   display: flex;
   justify-content: center;
   padding: 0 24px;
 }
 
 @media (min-width: 640px) {
-  div[data-v-95b970be]:last-child:not(.VPFeatures, .VPHome) {
+  .VPFeatures+div:last-child:not(.VPFeatures, .VPHome) {
     padding: 0 48px;
   }
 }
 
 @media (min-width: 960px) {
-  div[data-v-95b970be]:last-child:not(.VPFeatures, .VPHome) {
+  .VPFeatures+div:last-child:not(.VPFeatures, .VPHome) {
     padding: 0 64px;
   }
 }
 
-div[data-v-95b970be]:last-child:not(.VPFeatures, .VPHome) div:not(.custom-block) {
+.VPFeatures+div:last-child:not(.VPFeatures, .VPHome) div:not(.custom-block) {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -618,10 +618,6 @@ div[data-v-95b970be]:last-child:not(.VPFeatures, .VPHome) div:not(.custom-block)
   line-height: 22px !important;
 }
 
-.VPButton.alt[data-v-1851d5f4] {
-  border: none;
-}
-
 .alt {
   background: var(--theme-color-background);
   border-radius: 6px;
@@ -656,4 +652,10 @@ div[data-v-95b970be]:last-child:not(.VPFeatures, .VPHome) div:not(.custom-block)
 
 .pager-link:hover {
   background-color: var(--vp-c-white-soft);
+}
+
+/* 别让横幅与和h1粘连 */
+
+h1+.tip.custom-block{
+  margin-top: 16px !important;
 }
