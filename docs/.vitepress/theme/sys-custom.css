@@ -49,6 +49,8 @@ body {
   --basic-LightModeEjectorMiddle: 0px 12px 12px rgba(0, 0, 0, 0.04);
   --basic-LightModeEjectorBig: 0px 12px 15px rgba(0, 0, 0, 0.04);
   --basic-LightModeEjector: 0px 6px 8px rgba(0, 0, 0, 0.02);
+  /* bg */
+  --background-svg:url(/bg.svg);
 }
 
 :root {
@@ -222,6 +224,7 @@ body {
   --basic-LightModeEjectorMiddle: 0px 6px 24px rgba(0, 0, 0, 0.13);
   --basic-LightModeEjectorBig: 0px 6px 24px rgba(0, 0, 0, 0.4);
   --basic-LightModeEjector: 0px 6px 10px rgba(0, 0, 0, 0.19);
+
 }
 
 /**
@@ -458,13 +461,13 @@ body {
 
 .VPButton.brand:hover {
   filter: brightness(102%);
-  transform: scale(1.06);
+  transform: scale(1.02);
   box-shadow: var(--basic-line-slender), var(--basic-boxshadow-box-hover);
 }
 
 .VPButton.brand:focus {
   filter: brightness(98%);
-  transform: scale(0.96);
+  transform: scale(0.98);
 }
 
 /* 主页H1渐变色 */
@@ -485,25 +488,6 @@ body {
 .VPNavBar {
   animation: come-in 390ms cubic-bezier(0.51, 0.01, 0, 1);
 }
-
-/* 菜单展开动画 */
-.menu {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px) scaleY(0.72);
-  transition-property: opacity, visibility, transform;
-  transition-duration: 250ms;
-  transition-timing-function: var(--basic-super-anim);
-  transition-delay: 0s, 0s, 0s;
-}
-
-.VPFlyout:hover .menu
-.button[aria-expanded="true"]+.menu {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
 /* 菜单阴影 */
 .VPMenu {
   box-shadow: var(--basic-LightModeEjectorMiddle);
@@ -655,7 +639,32 @@ div:last-child:not(.VPFeatures, .VPHome) .custom-block.tip p:last-child {
 }
 
 /* 别让横幅与和h1粘连 */
-
 h1+.tip.custom-block{
   margin-top: 16px !important;
 }
+
+/* 首页美化 */
+
+.VPHero{
+  background: url(/bglarge.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100% 100% 100%;
+}
+@media (min-width: 960px){
+  .VPHome .VPHero {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .VPHero .container{
+  margin: 0px;
+  }
+  .main .action{
+    width: 100%;
+  }
+  .VPButton.brand{
+    width: 100%;
+  }
+}
+
