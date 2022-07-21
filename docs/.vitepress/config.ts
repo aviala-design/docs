@@ -16,6 +16,7 @@ export const sidebar: DefaultTheme.Sidebar = [
     collapsible: true,
     items: [
       { text: "解释", link: "/design/standards" },
+      { text: "间距与边距解释", link: "/design/stamdards-docs/and-margin-explanation" },
     ]
   },
   {
