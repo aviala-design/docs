@@ -2,20 +2,37 @@ import { defineConfigWithTheme, DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Sidebar = [
   {
-    text: "design设计组件库",
+    text: "设计组件库",
     collapsible: true,
     items: [
       { text: "快速了解", link: "/design/" },
-      { text: "设计标准", link: "/design/standards" },
-      { text: "组件", link: "/design/components" },
+      // { text: "设计标准", link: "/design/standards" },
+      // { text: "组件", link: "/design/components" },
       { text: "V2 迁移指南", link: "/design/updatetov2" },
     ],
+  },
+  {
+    text: "设计标准",
+    collapsible: true,
+    items: [
+      { text: "解释", link: "/design/standards" },
+    ]
+  },
+  {
+    text: "组件",
+    collapsible: true,
+    items: [
+      {text: "解释", link: "/design/components"},
+    ]
   },
 ]
 
 export default defineConfigWithTheme<DefaultTheme.Config>({
   lang: "zh-CN",
   title: "Systematize Design",
+  head: [
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/logo.svg"}]
+  ],
   description: "系统化，风格统一的设计系统。",
   themeConfig: {
     logo: "/logo.svg",
@@ -29,7 +46,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     },
     nav: [
       { text: "入门", link: "/guide/" },
-      { text: "design 设计组件库", link: "/design/" },
+      { text: "Sysd 设计组件库", link: "/design/" },
       { text: "Amethyst 图标库", link: "/amethyst/" },
       {
         text: "开发者",
