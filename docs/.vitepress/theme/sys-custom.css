@@ -465,7 +465,7 @@ body {
   box-shadow: var(--basic-line-slender), var(--basic-boxshadow-box-hover);
 }
 
-.VPButton.brand:focus {
+.VPButton.brand:active {
   filter: brightness(98%);
   transform: scale(0.98);
 }
@@ -543,7 +543,7 @@ body {
   width: 100%;
 }
 
-div:last-child:not(.VPFeatures, .VPHome) .custom-block.tip p:last-child {
+.VPFeatures+div:last-child:not(.VPFeatures, .VPHome) .custom-block.tip p:last-child {
   max-width: 400px;
 }
 
@@ -615,7 +615,8 @@ div:last-child:not(.VPFeatures, .VPHome) .custom-block.tip p:last-child {
 
 /* h4 美化 */
 .vp-doc h4 {
-  margin: 16px 0 0
+  margin: 16px 0 0;
+  font-size: 16px;
 }
 
 /* 特殊值 */
@@ -631,11 +632,11 @@ div:last-child:not(.VPFeatures, .VPHome) .custom-block.tip p:last-child {
 
 /* 跳转栏悬浮 */
 .pager-link {
-  transition: 250ms;
+  transition: 250ms !important;
 }
 
 .pager-link:hover {
-  background-color: var(--vp-c-white-soft);
+  background-color: var(--vp-c-bg-soft);
 }
 
 /* 别让横幅与和h1粘连 */
@@ -648,8 +649,17 @@ h1+.tip.custom-block{
 .VPHero{
   background: url(/bglarge.svg);
   background-repeat: no-repeat;
-  background-size: 100% 100% 100% 100%;
+  background-size:cover;
 }
+
+.dark .VPHero{
+    background: url(/bgblack.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
 @media (min-width: 960px){
   .VPHome .VPHero {
     height: 100vh;
@@ -665,6 +675,52 @@ h1+.tip.custom-block{
   }
   .VPButton.brand{
     width: 100%;
+    min-width: 260px;
+    min-height: 50px;
+    display: flex;
+  }
+  .VPHero p.text{
+    width: auto;
+    max-width: inherit;
+  }
+  .VPHero .container .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tagline{
+    text-align: center;
   }
 }
 
+.actions .action .VPButton.medium{
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.tip .header-anchor{
+  display: none !important;
+}
+
+.custom-block-title{
+  font-size: 24px;
+  line-height: 28px;
+}
+.tip h2{
+  font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.tip h3{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+hr{
+  border: 1px solid var(--vp-c-divider-light);
+  height: 1px;
+}
+#previewIframe{
+  width: 100%;
+  height: 600px;
+}
