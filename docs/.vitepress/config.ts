@@ -17,6 +17,11 @@ export const sidebar: DefaultTheme.Sidebar = [
     items: [
       { text: "解释", link: "/design/standards" },
       { text: "间距与边距解释", link: "/design/stamdards-docs/and-margin-explanation" },
+      { text: "配色标准", link: "/design/stamdards-docs/color-matching-standard" },
+      { text: "设计理念", link: "/design/stamdards-docs/design-concept" },
+      { text: "字号与字体标准", link: "/design/stamdards-docs/font-size-and-font-standard" },
+      { text: "层次标准", link: "/design/stamdards-docs/level-standard" },
+      { text: "悬浮、点击、选中效果处理", link: "/design/stamdards-docs/suspend-click-and-select-effect-processing" },
     ]
   },
   {
@@ -24,6 +29,7 @@ export const sidebar: DefaultTheme.Sidebar = [
     collapsible: true,
     items: [
       {text: "解释", link: "/design/components"},
+      {text: "Button 按钮", link: "/design/components/button"},
     ]
   },
 ]

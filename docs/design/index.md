@@ -5,7 +5,7 @@ lang: zh-CN
 
 # 📕 Systematize Design 设计组件库文档
 
-::: tip 本文档适用于「Systematize Design V2」
+::: info 本文档适用于「Systematize Design V2」
 为此，您可能需要将 Systematize Design V1.3 迁移至 V2 ，详情请参考 [V2 迁移指南](/design/updatetov2)
 :::
 
@@ -21,6 +21,6 @@ Systematize Design 可以胜任任何场景，无论是在线文档，设计工�
 Systematize Design 体系使用 MIT 协议，这代表其中的任何资源都可为您所用，无需担心版权问题。
 
 
-::: tip 施工中……
+::: info 施工中……
 我们还在疯狂开写，这不需要多少时间……
 :::
