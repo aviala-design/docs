@@ -5,7 +5,7 @@ lang: zh-CN
 
 # 📕 Amethyst 文档
 
-::: tip 本文档适用于「Amethyst Clearly」
+::: info 本文档适用于「Amethyst Clearly」
 Amethyst Clearly 是全新的 Amethyst 系列，旨在提供更加美丽且具有自定义可能的图标。
 :::
 
@@ -36,6 +36,6 @@ Amethyst Clearly 是 Amethyst 家族的新产品，主打「像素级完美」�
 若要像使用传统图标包一样快速引用，则需要进行路径转换，但这会破坏可自定义性，还会出现意料外的问题，所以我们还并不推荐这种使用方法。
 ### Design Token 和自定义（准备中）
 我们支持使用 Design Token 来快速的自定义你的图标，圆角端点？线条粗细？都可调整。
-::: tip 施工中……
+::: info 施工中……
 我们还在疯狂开写，这不需要多少时间……
 :::
