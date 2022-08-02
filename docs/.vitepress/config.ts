@@ -67,6 +67,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
           },
         ],
       },
+      { text: "开源共创", link: "/together/" },
     ],
   },
 })

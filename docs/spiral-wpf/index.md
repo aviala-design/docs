@@ -1,1 +1,2 @@
-# Hello, world
+# Spiral WPF (WIP)
+Coming soon...
