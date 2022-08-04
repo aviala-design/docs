@@ -5,7 +5,7 @@ title: Systematize Design
 titleTemplate: 
 
 hero:
-  name: Systematize Desgin
+  name: Systematize Design
   text: 系统化，风格统一的设计系统
   heroImage: /favicon.png
   tagline: 拥有强大通用性且易于自定义的一个足够开放的设计系统，且正在不断进化为设计生态
