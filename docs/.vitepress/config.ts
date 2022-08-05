@@ -53,7 +53,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     },
     nav: [
       { text: "入门", link: "/guide/" },
-      { text: "Sysd 设计组件库", link: "/design/" },
+      { text: "设计组件库", link: "/design/" },
       { text: "Amethyst 图标库", link: "/amethyst/" },
       {
         text: "开发者",
