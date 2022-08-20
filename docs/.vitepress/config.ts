@@ -22,6 +22,7 @@ export const sidebar: DefaultTheme.Sidebar = [
       { text: "字号与字体标准", link: "/design/stamdards-docs/font-size-and-font-standard" },
       { text: "层次标准", link: "/design/stamdards-docs/level-standard" },
       { text: "悬浮、点击、选中效果处理", link: "/design/stamdards-docs/suspend-click-and-select-effect-processing" },
+      { text: "动画标准", link: "/design/stamdards-docs/animation" },
     ]
   },
   {
