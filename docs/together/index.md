@@ -12,11 +12,11 @@ Systematize Design 是一个开放的设计系统，无论是设计师，还是�
 要与我们交流，欢迎加入 Systematize Design 共创群
 
 
-https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=fd0k54ed-379f-4b6b-8333-3677fee1f9ac
+https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=f5as9dff-e6c1-4396-bcf1-a7717e44a80d
 
 
 要反馈设计问题，请到 Systematize Design 问题反馈飞书群
 
 
-https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=08dh9c77-eb92-4f71-b5ca-14dcf55774d0
+https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=ae6mf6e3-05e5-4db3-8aa5-b43ed2d10e7b
 
