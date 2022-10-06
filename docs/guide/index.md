@@ -38,7 +38,6 @@ Systematize Design 体系使用 MIT 协议，这代表其中的任何资源都�
 
 [即时设计版](https://js.design/resourceDetails?id=62468fd1337111276574f554)
 
-我们还在积极的准备其他平台的版本，敬请期待。
 ### 获取最新版本
 自然，我们每天都在为组件库新增加许多奇妙的特性，并整理向前忽略的问题。
 
@@ -46,33 +45,18 @@ Systematize Design 体系使用 MIT 协议，这代表其中的任何资源都�
 
 请点击左上角「下载文件」获取，我们还在积极的准备其他平台的版本，敬请期待。
 ## 开始使用 Amethyst 系列图标库
-### Amethyst 图标库
-#### 获取稳定版本
-我们正在不断听取意见，不断迭代 Systematize Design ，所以，最新版本的 Systematize Design 总会有些不够稳妥之处，你可以为此获取「稳定版」Systematize Design。
-
-[即时设计版](https://js.design/resourceDetails?id=62468fd1337111276574f554)
-
-#### 获取最新版本
-自然，我们每天都在为组件库新增加许多奇妙的特性，并整理向前忽略的问题。
-
-[即时设计版](https://js.design/f/taEzz-?p=lA8pEnULgM)
-
-请点击左上角「下载文件」获取，我们还在积极的准备其他平台的版本，敬请期待。
-
-我们还在积极的准备其他平台的版本，敬请期待。
+::: tip Amethyst 原版图标库已经放弃维护
+我们已放弃对原始版 Amthyst 图标库提供支持，不会优化其图标样式或新增图标，仅保证其可用性。
+:::
 ### Amethyst Clearly 图标库
 #### 获取稳定版本
 
-未发布
+[即时设计版](https://js.design/resourceDetails?id=62d906517c62a27e586fe2c4)
 
 #### 获取最新版本
 我们每天都在为图标库新增加许多奇妙的特性和图标，并整理向前忽略的问题。
 
 [即时设计版](https://js.design/f/Wu5kx7)
-
-::: danger 目前尚未完工
-该版本的 Amethyst Clearly 尚未完工，我们不推荐直接使用。
-:::
 
 请点击左上角「下载文件」获取，我们还在积极的准备其他平台的版本，敬请期待。
 
